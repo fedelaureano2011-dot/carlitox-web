@@ -1,35 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Carlitox Bot</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body {
-      background: #0f0f0f;
-      color: white;
-      font-family: Arial;
-      text-align: center;
-      padding: 40px;
-    }
-    h1 { font-size: 40px; }
-    button {
-      padding: 15px 25px;
-      background: #5865F2;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      font-size: 18px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carlitox Bot</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial, sans-serif;}
+
+body{
+  background: radial-gradient(circle at top, #1a1a1a, #050505);
+  color:white;
+  text-align:center;
+}
+
+.hero{padding:70px 20px 40px;}
+
+.logo{
+  font-size:48px;
+  font-weight:bold;
+  background:linear-gradient(90deg,#5865F2,#9b5cff);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.subtitle{opacity:.8;margin-top:10px;font-size:18px;}
+
+.invite-btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:15px 30px;
+  font-size:18px;
+  background:#5865F2;
+  border-radius:12px;
+  text-decoration:none;
+  color:white;
+  box-shadow:0 0 20px rgba(88,101,242,.4);
+}
+
+.section{
+  margin:40px 20px;
+  padding:25px;
+  background:#121212;
+  border-radius:16px;
+  box-shadow:0 0 25px rgba(88,101,242,.15);
+}
+
+.section h2{margin-bottom:15px;color:#9b5cff;}
+
+.command{
+  padding:10px;
+  margin:6px 0;
+  background:#1c1c1c;
+  border-radius:10px;
+}
+
+.footer{opacity:.5;padding:30px;font-size:14px;}
+</style>
 </head>
+
 <body>
 
-<h1>Carlitox Bot 🤖</h1>
-<p>El bot más capo del servidor.</p>
+<div class="hero">
+  <div class="logo">Carlitox 🤖</div>
+  <div class="subtitle">Inteligente. Argentino. Inevitable.</div>
 
-<a href="https://discord.com/oauth2/authorize?client_id=1467914818257289481&scope=bot&permissions=8">
-  <button>Invitar al bot</button>
-</a>
+  <!-- 1467914818257289481 -->
+  <a class="invite-btn"
+     href="https://discord.com/oauth2/authorize?client_id=TU_ID_AQUI&scope=bot&permissions=8"
+     target="_blank">
+     Invitar al bot
+  </a>
+</div>
+
+<div class="section">
+<h2>💰 Economía</h2>
+<div class="command">?work</div>
+<div class="command">?bal</div>
+<div class="command">?pay (usuario) (cantidad)</div>
+<div class="command">?rob (usuario)</div>
+<div class="command">?with (cantidad)</div>
+<div class="command">?dep (cantidad)</div>
+<div class="command">?pool</div>
+</div>
+
+<div class="section">
+<h2>😎 Chill</h2>
+<div class="command">!davo</div>
+<div class="command">!la cobra</div>
+<div class="command">!momo</div>
+<div class="command">budín</div>
+<div class="command">!curiosa</div>
+<div class="command">!ruleta</div>
+<div class="command">.8ball</div>
+<div class="command">!quien salio del closet?</div>
+<div class="command">!bromita (usuario)</div>
+<div class="command">PERON</div>
+<div class="command">!carlitox</div>
+<div class="command">!f1 factos</div>
+<div class="command">:avatar</div>
+<div class="command">!raid</div>
+<div class="command">JOJOJO</div>
+<div class="command">.google (búsqueda)</div>
+<div class="command">!dm (usuario)</div>
+</div>
+
+<div class="section">
+<h2>🏁 Quiz</h2>
+<div class="command">!quizwec</div>
+<div class="command">!quizimsa</div>
+<div class="command">!quizelms</div>
+<div class="command">!quizf1</div>
+<div class="command">!quiznascar</div>
+<div class="command">!quizdakar</div>
+<div class="command">!quizmotogp</div>
+<div class="command">!quizwrc</div>
+<div class="command">!quizactc</div>
+</div>
+
+<div class="section">
+<h2>🏎 Información de carreras</h2>
+<div class="command">!WEC</div>
+<div class="command">!F1</div>
+<div class="command">!F2</div>
+<div class="command">!F3</div>
+<div class="command">!Turismo Carretera</div>
+<div class="command">!TC Mouras</div>
+<div class="command">!TC Pista</div>
+<div class="command">!Rally</div>
+<div class="command">!Nascar</div>
+<div class="command">!Dakar</div>
+<div class="command">!TCR</div>
+</div>
+
+<div class="section">
+<h2>🎵 Música</h2>
+<div class="command">.play (canción)</div>
+<div class="command">.skip</div>
+<div class="command">.stop</div>
+<div class="command">.pause</div>
+</div>
+
+<div class="section">
+<h2>💬 Hablar con el bot</h2>
+<p>Mencioná al bot y hablale.<br>
+Ej: @Carlitox como andas?</p>
+</div>
+
+<div class="section">
+<h2>🛠 Soporte</h2>
+<div class="command">!soporte → crea ticket de ayuda</div>
+</div>
+
+<div class="footer">
+Hecho con poder argentino 🇦🇷
+</div>
 
 </body>
 </html>
